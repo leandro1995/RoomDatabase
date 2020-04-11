@@ -5,5 +5,6 @@
     <string name="login_text">Login usuario</string>
     <string name="enter_text">Ingresar</string>
     <string name="register_text">Registrar</string>
+    <string name="register_user_text">Registrar usuario</string>
 
 </resources>
