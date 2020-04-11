@@ -41,6 +41,7 @@
                 android:layout_marginTop="@dimen/spacing20"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:text="@={mainViewModel.user}"
                 tools:ignore="Autofill,LabelFor" />
 
             <EditText
@@ -49,12 +50,14 @@
                 android:layout_marginTop="@dimen/spacing20"
                 android:ems="10"
                 android:inputType="textPassword"
+                android:text="@={mainViewModel.password}"
                 tools:ignore="Autofill,LabelFor" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing20"
+                android:onClick="@{()-> mainViewModel.verifyUser()}"
                 android:text="@string/enter_text" />
 
             <Button

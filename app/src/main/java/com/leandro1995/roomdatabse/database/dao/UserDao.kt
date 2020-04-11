@@ -13,4 +13,7 @@ interface UserDao {
 
     @Query("select * from User")
     fun userList(): MutableList<User>
+
+    @Query("select * from User where user =:user and password =:password")
+    fun userList(user: String, password: String): MutableList<User>
 }

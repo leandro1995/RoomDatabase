@@ -26,7 +26,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun observers() {
-        mainViewModel.registerMutable.observe(this, Observer {
+        mainViewModel.registerActivityMutable.observe(this, Observer {
+            startActivity(Intent(this, it))
+        })
+
+        mainViewModel.userListActivityMutable.observe(this, Observer {
             startActivity(Intent(this, it))
         })
     }
