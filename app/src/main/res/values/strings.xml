@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RoomDatabse</string>
+
+    <!-- Text -->
+    <string name="login_text">Login usuario</string>
+    <string name="enter_text">Ingresar</string>
+    <string name="register_text">Registrar</string>
+
 </resources>

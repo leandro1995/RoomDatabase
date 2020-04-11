@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text -->
+    <dimen name="text20">20sp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing0">0dp</dimen>
+    <dimen name="spacing8">8dp</dimen>
+    <dimen name="spacing10">10dp</dimen>
+    <dimen name="spacing20">20dp</dimen>
+    <dimen name="spacing24">24dp</dimen>
+
+</resources>
